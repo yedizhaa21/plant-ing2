@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Irish Grover', cursive;
+    box-sizing: border-box;
+}
+
+.container{
+    background-image: linear-gradient(222deg, #87F618, rgba(135, 246, 24, 0));
+    height: 100vh;
+}
+
+.bg img{
+    width: 100%;
+    height: 65vh;
+    margin: 10px auto;
+    border-radius: 15px;
+}
+
+footer h1{
+    margin: 0 auto;
+    top: 0;
+    color: #444444;
+    font-size: 44px;
+    font-weight: 500;
+    text-align: center;
+}
+
+footer button{
+    margin: 35px auto;
+    padding: 5px;
+    width: 338px;
+    height: 61px;
+    display: block;
+    background-color: #5FF900;
+    border-radius: 50px;
+    border: none;
+    font-size: 24px;
+    transition: .15s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+}
+
+footer img{
+    margin: auto 30px;
+    transform: scale(.7);
+}
+
+button:hover{
+    cursor: pointer;
+    transform: scale(1.09);
+}
+
+button:active{
+    transform: scale(1);
+}
+
+button:active a{
+    transform: scale(1);
+}
+
+/* ==================================================== */
+
+/* Reset container */
+.container-page1,
+.container-page2,
+.container-page3{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    background-image: linear-gradient(222deg, rgb(97, 239, 10), rgba(97, 239, 10, .61));
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Logo */
+.nav-logo h3{
+    color: white;
+    margin: 5px 20px;
+}
+
+/* Container page1 text content */
+.container-page1 .col-left .text-content{
+    width: 60%;
+    margin: 20vh 10vw;
+    padding: 10px; 
+    display: block;
+    z-index: 10;   
+}
+
+/* Container page2 text content */
+.container-page2 .col-left .text-content{
+    width: 80%;
+    margin: 20vh 10vw;
+    padding: 10px; 
+    display: block;
+    z-index: 10;
+}
+
+/* Container page3 text content */
+.container-page3 .col-left .text-content{
+    width: 80%;
+    margin: 20vh 10vw;
+    padding: 10px; 
+    display: block;
+    z-index: 10;
+}
+
+/* Line heading */
+.heading h1{
+    font-size: 60px;
+    line-height: 70px;
+    margin-bottom: 20px;
+}
+
+/* Isi konten */
+.heading .par p{
+    font-size: 40px;
+    line-height: 50px;
+    margin-top: 20px;
+}
+
+/* bg pojok kiri bawah */
+.col-left .bg-down img{
+    display: block;
+    bottom: 0;
+    z-index: -99;
+    position: absolute;
+}
+
+/* Main image */
+.col-right img{
+    mix-blend-mode: darken;
+    height: 95vh;
+    margin: 20px 10vw;
+}
+
+/* button */
+/* Next */
+.col-left button.btn-next{
+    bottom: 45px;
+    left: 40vw;
+    padding: 5px;
+    width: 338px;
+    height: 61px;
+    display: block;
+    position: absolute;
+    background-color: #5FF900;
+    border-radius: 50px;
+    border: none;
+    font-size: 24px;
+    transition: .15s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+
+button.btn-next img{
+    margin-left: 40px;
+    transform: scale(.7);
+}
+
+.col-left a{
+    text-decoration: none;
+    color: black;
+    width: 50px;
+}
+
+.col-left button.btn-back{
+    width: 60px;
+    height: 60px;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #5FF900;
+    display: block;
+    position: absolute;
+    border: none;
+    left: 5vw;
+    bottom: 45px;
+    transition: .15s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+
+button.btn-back img{
+    transform: rotateY(180deg) scale(.7);
+}
+
+/* Create account */
+.cr-acc{
+    display: block;
+    position: absolute;
+    bottom: 18px;
+    left: 43vw;
+    margin: 0 auto;
+}
+
+.cr-acc a{
+    color: blue;
+}
+
+/* Page Bullets */
+.col-left .nav-foot img{
+    display: block;
+    position: absolute;
+    bottom: 5px;
+    left: 50vw;
+    width: 50px;
+    margin: 0 auto;
+}
